@@ -23,12 +23,6 @@ public class User {
 			String fName = scan.next();
 			sop("Enter last name: ");
 			String lName = scan.next();
-//			sop("Enter credit card number: ");
-//			long ccm = scan.nextLong();
-//			sop("Enter expiration date as MM.YYYY: ");
-//			String exp = scan.next();
-//			sop("Enter security code: ");
-//			int secCode = scan.nextInt();
 
 			UserFile f = new UserFile();
 			f.openFile();
