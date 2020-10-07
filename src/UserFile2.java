@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.File;
 
-public class UserFile {
+public class UserFile2 {
 
 	public static void sop(Object x) {
 		System.out.println(x);
@@ -12,7 +12,7 @@ public class UserFile {
 
 	public void openFile() {
 		try {
-			f = new Formatter("UserDB.txt");
+			f = new Formatter("UserDB2.txt");
 		//	scan = new Scanner(new File("chinese.txt"));
 		} catch (Exception e) {
 			sop("there is an error");
